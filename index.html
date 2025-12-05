@@ -1,0 +1,319 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siargao Travel Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+      </style>
+</head>
+<body class="font-inter color-bg-light text-gray-800 antialiased transition-all-300">
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    'deep-navy': '#0d47a1',
+                    'ocean-blue': '#1565c0',
+                    'sky-blue': '#87ceeb',
+                    'soft-teal': '#38b2ac',
+                    'light-bg': '#e0f2f7',
+                    'text-dark': '#2c3e50',
+                },
+                fontFamily: {
+                    'cinzel': ['Cinzel', 'serif'],
+                    'inter': ['Inter', 'sans-serif'],
+                }
+            }
+        }
+    }
+</script>
+
+<header class="sticky top-0 z-20 w-full bg-deep-navy/95 shadow-xl backdrop-blur-sm">
+    <div class="container mx-auto max-w-7xl flex items-center justify-between p-4 sm:p-6">
+        <h1 class="text-xl sm:text-3xl font-cinzel font-black text-white tracking-widest flex items-center gap-2">
+            <span class="text-sky-blue text-4xl">SIARGAO <span class="text-soft-teal font-bold">GUIDE</span>
+        </h1>
+        <nav class="hidden lg:flex space-x-6 text-sm font-bold tracking-wide font-inter">
+            <a href="#homepage-content" class="nav-link text-white hover:text-sky-blue transition-all-300">Home</a>
+            <a href="#gallery" class="nav-link text-white hover:text-sky-blue transition-all-300">Spots</a>
+            <a href="#mainland-siargao" class="nav-link text-white hover:text-sky-blue transition-all-300">Mainland</a>
+            <a href="#environment" class="nav-link text-white hover:text-sky-blue transition-all-300">Education</a>
+            <a href="#heritage" class="nav-link text-white hover:text-sky-blue transition-all-300">Culture</a>
+            <a href="#itinerary" class="nav-link text-white hover:text-sky-blue transition-all-300">Voyage</a>
+        </nav>
+        <a href="#future" class="px-4 py-2 bg-gradient-to-r from-ocean-blue to-soft-teal text-white rounded-full font-bold shadow-lg hover:shadow-sky-blue/50 hover:scale-105 transition-all-300 text-xs sm:text-sm">
+            🏝️🏄‍♂️
+        </a>
+    </div>
+</header>
+
+<main class="container mx-auto max-w-7xl">
+    <section id="homepage-content" class="page-content mb-24 py-24 color-bg-light">
+        <div class="text-center pb-16">
+            <p class="text-3xl font-cinzel text-deep-navy font-bold max-w-5xl mx-auto tracking-tight">
+                Your Ultimate Guide to the Islands and Mainland Wonders.
+            </p>
+        </div>
+        <div class="relative w-full mx-auto rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all-300">
+            <div class="absolute inset-0 bg-gradient-to-t from-deep-navy/70 to-transparent opacity-80 z-10"></div>
+            <img
+                src="https://i.postimg.cc/8cVzmyGX/589171302-837012825592300-877642618686640287-n.jpg"
+                class="w-full h-[900px] object-cover group-hover:scale-[1.01] transition-transform duration-500"
+                width="1400" height="900"
+            >
+            <div class="absolute bottom-10 left-10 p-4 z-20"></div>
+        </div>
+
+        <div class="mt-24 grid md:grid-cols-2 gap-12 mx-auto">
+            <div class="p-10 bg-white rounded-tr-[70px] rounded-bl-[70px] shadow-2xl border-l-10 border-soft-teal hover:shadow-3xl transform hover:-translate-y-2 transition-all-300">
+                <p class="font-cinzel text-7xl font-black text-ocean-blue/10 mb-4">01</p>
+                <h4 class="text-4xl font-cinzel font-bold text-deep-navy mb-4">THE ISLAND GEM</h4>
+                <p class="text-lg text-text-dark font-inter leading-relaxed">
+                    Siargao is an island in the province of Surigao del Norte, Philippines! Known for its world-class surf break “Cloud 9,” pristine lagoons, caves, and island-hopping.
+                </p>
+            </div>
+        </div>
+
+        <div id="transport" class="py-20">
+            <h3 class="text-4xl font-cinzel font-bold mb-14 text-center text-deep-navy">Regional Travel & Logistics</h3>
+            <div class="grid md:grid-cols-2 gap-16 p-10 bg-white rounded-3xl shadow-2xl mx-auto">
+               <div class="space-y-6">
+                    <h4 class="text-3xl font-cinzel font-bold text-ocean-blue mb-3">Modes of Transport</h4>
+                    <p class="text-lg text-text-dark font-inter">
+                        Getting around Siargao involves air, ferry, and land travel. Most visitors enter directly through Sayak Airport (IAO).
+                    </p>
+                    <ul class="space-y-4 text-text-dark list-disc list-inside ml-6 font-inter text-lg">
+                        <li><span class="font-bold">To Siargao:</span> Direct flights to IAO from Manila and Cebu.</li>
+                        <li><span class="font-bold">Nearby Airport Option:</span> Fly to Butuan (BXU), then travel to Surigao City and ferry to Dapa Port (Siargao).</li>
+                        <li><span class="font-bold">On the Island:</span> Motorcycle rentals, vans, habal-habal, and tricycles are the primary transport options.</li>
+                    </ul>
+                </div>
+              <div class="rounded-2xl overflow-hidden shadow-3xl self-center">
+                    <img
+                        src="https://i.postimg.cc/YSkRT73h/cagayan-de-oro-to-surigao-city-bus-guide.png"
+                        class="w-full h-full object-cover"
+                        width="800" height="600"
+                    >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="page-content mb-24 py-20 bg-white shadow-inner">
+        <h3 class="text-5xl font-cinzel font-bold mb-8 text-center text-deep-navy">Must-See Spots</h3>
+        <div class="max-w-6xl mx-auto rounded-3xl shadow-2xl bg-deep-navy slideshow-container border-8 border-ocean-blue">
+            <img src="https://i.postimg.cc/DwCDQ8Fv/jvxi8hfli-a-in-diesem.jpg" class="rounded-2xl">
+            <img src="https://i.postimg.cc/fbDLdqzW/IMG-2038.webp"class="rounded-2xl">
+            <img src="https://i.postimg.cc/J75WD7yB/DJI-0672-3-1080x675.jpg" class="rounded-2xl">
+            <img src="https://i.postimg.cc/W4zGBwKb/corregidor-island-siargao-tour-0761-1-1024x682.jpg" class="rounded-2xl">
+            <img src="https://i.postimg.cc/qRLp22Jc/tayangban-cave.jpg"class="rounded-2xl">
+        </div>
+
+        <div id="delicacies" class="py-16 bg-white rounded-3xl shadow-2xl mt-24">
+            <h3 class="text-4xl font-cinzel font-bold mb-14 text-center text-deep-navy">Local Delicacies</h3>
+
+            <div class="grid md:grid-cols-3 gap-10 p-10">
+
+                <div class="text-center p-4">
+                    <img
+                        src="https://i.postimg.cc/vZNhHK5K/1564423507384.webp"
+                        class="w-full h-48 object-cover rounded-lg mb-4 shadow-lg hover:shadow-xl transition-shadow duration-300"
+                    >
+                    <h4 class="text-2xl font-cinzel font-bold mb-3 text-deep-navy">Grilled Seafood</h4>
+                    <p class="text-base text-text-dark font-inter">
+                        Siargao offers some of the freshest seafood in the country.
+                    </p>
+                </div>
+
+                <div class="text-center p-4">
+                    <img
+                        src="https://i.postimg.cc/fysnqyLb/kinilaw-na-tuna-1.jpg"
+                        class="w-full h-48 object-cover rounded-lg mb-4 shadow-lg hover:shadow-xl transition-shadow duration-300"
+                    >
+                    <h4 class="text-2xl font-cinzel font-bold mb-3 text-deep-navy">Kinilaw</h4>
+                    <p class="text-base text-text-dark font-inter">
+                        A Filipino ceviche dish made with fresh tuna, vinegar, and spices.
+                    </p>
+                </div>
+
+                <div class="text-center p-4">
+                    <img
+                        src="https://i.postimg.cc/7hKs1ZTf/filipino-adobo-426.webp"
+                        class="w-full h-48 object-cover rounded-lg mb-4 shadow-lg hover:shadow-xl transition-shadow duration-300"
+                    >
+                    <h4 class="text-2xl font-cinzel font-bold mb-3 text-deep-navy">Adobo</h4>
+                    <p class="text-base text-text-dark font-inter">
+                        A classic Filipino dish enjoyed all throughout the island.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="mainland-siargao" class="page-content mb-24 py-20 bg-gradient-to-r from-ocean-blue to-deep-navy text-white clip-slant">
+        <div class="px-6 pt-20 pb-16">
+            <h3 class="text-5xl font-cinzel font-bold mb-16 text-center text-sky-blue">Hidden Gems</h3>
+
+            <div class="grid md:grid-cols-3 gap-10 mx-auto">
+                <div class="p-8 bg-white text-text-dark rounded-2xl shadow-xl border-b-6 border-soft-teal group hover:shadow-2xl transform hover:-translate-y-2 transition-all-300">
+                    <img
+                        src="https://i.postimg.cc/HktZCwdF/sugba.jpg"
+                        class="w-full h-48 object-cover rounded-lg mb-4"
+                    >
+                    <h4 class="text-3xl font-cinzel font-bold mb-3 text-deep-navy">Sugba Lagoon</h4>
+                    <p class="text-base font-inter">
+                        A stunning turquoise lagoon in Del Carmen, perfect for kayaking, paddleboarding, and diving.
+                    </p>
+                </div>
+
+                <div class="p-8 bg-white text-text-dark rounded-2xl shadow-xl border-b-6 border-soft-teal group hover:shadow-2xl transform hover:-translate-y-2 transition-all-300">
+                    <img
+                        src="https://i.postimg.cc/dtsWVrZN/IMG-4536.webp"
+                        class="w-full h-48 object-cover rounded-lg mb-4"
+                    >
+                    <h4 class="text-3xl font-cinzel font-bold mb-3 text-deep-navy">Maasin River</h4>
+                    <p class="text-base font-inter">
+                        A scenic jungle river famous for coconut-tree swinging and river paddling.
+                    </p>
+                </div>
+
+                <div class="p-8 bg-white text-text-dark rounded-2xl shadow-xl border-b-6 border-soft-teal group hover:shadow-2xl transform hover:-translate-y-2 transition-all-300">
+                    <img
+                        src="https://i.postimg.cc/pVwfVsnz/magpupungko.jpg"
+                        class="w-full h-48 object-cover rounded-lg mb-4"
+                    >
+                    <h4 class="text-3xl font-cinzel font-bold mb-3 text-deep-navy">Magpupungko Rock Pools</h4>
+                    <p class="text-base font-inter">
+                        Natural tidal pools that appear during low tide—one of Siargao’s most iconic spots.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="heritage" class="page-content mb-24 py-20 bg-light-bg">
+        <h3 class="text-5xl font-cinzel font-bold mb-16 text-center text-deep-navy">Siargao's Culture</h3>
+        <div class="grid md:grid-cols-2 gap-14 mx-auto">
+            <div class="bg-white p-8 rounded-2xl shadow-xl border-r-6 border-ocean-blue">
+                <h4 class="text-3xl font-cinzel font-bold text-soft-teal mb-4">Surfing and Island Life</h4>
+                <p class="text-lg text-text-dark font-inter leading-relaxed">
+                    Surf culture defines Siargao's identity. From Cloud 9 surf breaks to laid-back beach living, the island embodies a unique blend of adventure and hospitality.
+                </p>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-xl border-l-6 border-soft-teal">
+                <h4 class="text-3xl font-cinzel font-bold text-ocean-blue mb-4">Major Festivals</h4>
+                <ul class="space-y-3 text-text-dark list-disc list-inside ml-6 font-inter text-lg">
+                    <li><span class="font-bold">Siargao International Surfing Cup:</span> Held annually in Cloud 9.</li>
+                    <li><span class="font-bold">Siargao Island Festival:</span> Celebrates local culture, cuisine, and traditions.</li>
+                    <li><span class="font-bold">Pili Festival:</span> A community celebration centered around local produce.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="environment" class="page-content mb-24 py-20 bg-white shadow-2xl rounded-3xl">
+        <h3 class="text-5xl font-cinzel font-bold mb-16 text-center text-deep-navy">Educational Institutions</h3>
+
+        <div class="grid md:grid-cols-3 gap-8 px-6">
+            <div class="p-8 bg-light-bg rounded-2xl shadow-lg border-t-6 border-ocean-blue">
+                <img
+                    src="https://i.postimg.cc/Y9qcg9X7/siargao-island-institute-of-technology-logo.jpg"
+                    class="w-full h-48 object-cover rounded-lg mb-4"
+                >
+                <h4 class="text-2xl font-cinzel font-bold text-deep-navy mb-3">Siargao Island Institute of Technology</h4>
+                <p class="text-base text-text-dark font-inter">
+                    A local institution offering education and skills training for youth.
+                </p>
+            </div>
+
+            <div class="p-8 bg-light-bg rounded-2xl shadow-lg border-t-6 border-soft-teal">
+                <img
+                    src="https://i.postimg.cc/qRMRRpyz/18.pngT"
+                    class="w-full h-48 object-cover rounded-lg mb-4"
+                >
+                <h4 class="text-2xl font-cinzel font-bold text-deep-navy mb-3">Espoir School of Life</h4>
+                <p class="text-base text-text-dark font-inter">
+                    A non-profit organization providing free education in Barangay Lobogon, Del Carmen, Siargao.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="itinerary" class="page-content mb-24 py-20 bg-gradient-to-r from-light-bg to-white">
+        <h3 class="text-5xl font-cinzel font-bold mb-16 text-center text-deep-navy">An Ideal 5-day Tour in Siargao</h3>
+
+        <div class="mx-auto grid md:grid-cols-5 gap-6 px-6">
+
+            <div class="w-full bg-white border border-blue-200 p-8 rounded-2xl text-center shadow-md hover:shadow-xl transform hover:scale-[1.05] transition-all-300">
+                <div class="text-4xl mb-3 text-ocean-blue">✈️</div>
+                <div class="font-bold text-deep-navy font-cinzel text-xl">Day 1</div>
+                <div class="text-base text-text-dark font-inter mt-1">Arrival & Surfing at Cloud 9</div>
+            </div>
+
+            <div class="hidden md:block w-full h-1 bg-blue-300 self-center"></div>
+
+            <div class="w-full bg-white border border-blue-200 p-8 rounded-2xl text-center shadow-md hover:shadow-xl transform hover:scale-[1.05] transition-all-300">
+                <div class="text-4xl mb-3 text-ocean-blue">🏝️</div>
+                <div class="font-bold text-deep-navy font-cinzel text-xl">Day 2</div>
+                <div class="text-base text-text-dark font-inter mt-1">Island Hopping — Daku, Guyam & Naked Island</div>
+            </div>
+
+            <div class="hidden md:block w-full h-1 bg-blue-300 self-center"></div>
+
+            <div class="w-full bg-white border border-blue-200 p-8 rounded-2xl text-center shadow-md hover:shadow-xl transform hover:scale-[1.05] transition-all-300">
+                <div class="text-4xl mb-3 text-ocean-blue">🌊</div>
+                <div class="font-bold text-deep-navy font-cinzel text-xl">Day 3</div>
+                <div class="text-base text-text-dark font-inter mt-1">Magpupungko Rock Pools & Sugba Lagoon</div>
+            </div>
+
+            <div class="hidden md:block w-full h-1 bg-blue-300 self-center"></div>
+
+            <div class="w-full bg-white border border-blue-200 p-8 rounded-2xl text-center shadow-md hover:shadow-xl transform hover:scale-[1.05] transition-all-300">
+                <div class="text-4xl mb-3 text-ocean-blue">🏞️</div>
+                <div class="font-bold text-deep-navy font-cinzel text-xl">Day 4</div>
+                <div class="text-base text-text-dark font-inter mt-1">Pacifico Beach & Taktak Falls (Santa Monica)</div>
+            </div>
+
+            <div class="hidden md:block w-full h-1 bg-blue-300 self-center"></div>
+
+            <div class="w-full bg-white border border-blue-200 p-8 rounded-2xl text-center shadow-md hover:shadow-xl transform hover:scale-[1.05] transition-all-300">
+                <div class="text-4xl mb-3 text-ocean-blue">🧜‍♀️</div>
+                <div class="font-bold text-deep-navy font-cinzel text-xl">Day 5</div>
+                <div class="text-base text-text-dark font-inter mt-1">Sohoton Cove (Bucas Grande) & Departure</div>
+            </div>
+
+        </div>
+    </section>
+    
+    <section id="title-page" class="page-content min-h-screen flex flex-col items-center justify-center text-center p-8 sm:p-12 color-bg-light">
+        <div class="max-w-4xl bg-white p-10 rounded-3xl shadow-3xl border-b-10 border-soft-teal">
+            <h2 class="text-6xl sm:text-8xl font-cinzel font-extrabold mb-8 text-deep-navy tracking-tighter leading-none">
+                <span class="text-ocean-blue">THE ULTIMATE</span> SIARGAO <br> TRAVEL GUIDE
+            </h2>
+        </div>
+        <a href="#homepage-content" class="inline-block mt-20 animate-bounce text-deep-navy hover:text-ocean-blue transition-all-300 nav-link">
+            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7-7-7"></path></svg>
+        </a>
+    </section>
+</main>
+
+<footer class="bg-deep-navy text-white p-8 sm:p-10">
+    <div class="container mx-auto max-w-7xl flex flex-col sm:flex-row items-center justify-between text-base">
+        <p>&copy; CEMINE, MOZO, PEREZ </p>
+        <div class="flex space-x-6 mt-4 sm:mt-0 font-cinzel">
+            <a href="#homepage-content" class="nav-link hover:text-sky-blue transition-colors">Home</a>
+            <a href="#environment" class="nav-link hover:text-sky-blue transition-colors">Ecology</a>
+            <a href="#itinerary" class="nav-link hover:text-sky-blue transition-colors">Voyage</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
